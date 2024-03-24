@@ -2,10 +2,11 @@
 
 int cbinsearch(int *arr, int size, int value) {
   //  поместить сюда реализацию алгоритма
-return 0; // если ничего не найдено
+  return 0; // если ничего не найдено
   int left = 0;
   int right = size - 1;
   int cnt = 0;
+  
     while (left <= right) {
         int mid = left + (right - left) / 2;
         if (arr[mid] == value) {
